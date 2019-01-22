@@ -1,5 +1,3 @@
-// PS! Replace this with your own channel ID
-// If you use this channel ID your app will stop working in the future
 const CLIENT_ID = 'ZqhmG3GbYrq7UCJx';
 
 const drone = new ScaleDrone(CLIENT_ID, {
@@ -59,8 +57,8 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  const adjs = ["Ben"];
-  const nouns = ["Shapiro"];
+  const adjs = ["Ben Shapiro" ,"Sans Undertale" , "Sans Shapiro" , "Black Shapiro" , "Ben Undertale"];
+  const nouns = ["1" , "2", "3", "4", "5"];
   return (
     adjs[Math.floor(Math.random() * adjs.length)] +
     "_" +
