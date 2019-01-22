@@ -57,8 +57,8 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  const adjs = ["Ben Shapiro" ,"Sans Undertale" , "Sans Shapiro" , "Black Shapiro" , "Ben Undertale"];
-  const nouns = ["1" , "2", "3", "4", "5"];
+  const adjs = ["God Is Dead"];
+  const nouns = ["This is anarchy"];
   return (
     adjs[Math.floor(Math.random() * adjs.length)] +
     "_" +
